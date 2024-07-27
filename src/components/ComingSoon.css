@@ -1,0 +1,139 @@
+/* src/components/ComingSoon.css */
+.coming-soon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+  
+    background-size: cover; /* Ensures the background image covers the whole area */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+  }
+  
+  .coming-soon-header {
+    margin-bottom: 20px;
+  }
+  
+  .coming-soon-header h1 {
+    font-size: 10em;
+    margin: 0;
+    color: white; /* Adjust color for better contrast */
+  }
+  
+  .coming-soon-header p {
+    font-size: 2.5em;
+    margin: 0;
+    color: white; /* Adjust color for better contrast */
+  }
+  
+  .coming-soon-main {
+    margin-bottom: 30px;
+  }
+  
+  .coming-soon-main p {
+    font-size: 3.2em;
+    color: white; /* Adjust color for better contrast */
+  }
+  
+  .countdown {
+    margin-top: 20px;
+  }
+  
+  .countdown p {
+    font-size: 2.2em;
+    color: white; /* Adjust color for better contrast */
+  }
+  
+  .countdown-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .countdown-unit {
+    font-size: 2em; /* Increase the font size of the countdown timer */
+    color: rgb(28, 27, 27); /* Adjust color for better contrast */
+    margin: 0 10px; /* Add some spacing between countdown units */
+  }
+  
+  .coming-soon-footer {
+    font-size: 0.9em;
+    color: white; /* Adjust color for better contrast */
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  
+  @media (max-width: 1024px) {
+    .coming-soon-header h1 {
+      font-size: 6em;
+    }
+  
+    .coming-soon-header p {
+      font-size: 2em;
+    }
+  
+    .coming-soon-main p {
+      font-size: 2.5em;
+    }
+  
+    .countdown p {
+      font-size: 1.8em;
+    }
+  
+    .countdown-unit {
+      font-size: 1.8em;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .coming-soon-header h1 {
+      font-size: 4em;
+    }
+  
+    .coming-soon-header p {
+      font-size: 1.5em;
+    }
+  
+    .coming-soon-main p {
+      font-size: 2em;
+    }
+  
+    .countdown p {
+      font-size: 1.5em;
+    }
+  
+    .countdown-unit {
+      font-size: 1.5em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .coming-soon-header h1 {
+      font-size: 2em;
+    }
+  
+    .coming-soon-header p {
+      font-size: 1em;
+    }
+  
+    .coming-soon-main p {
+      font-size: 1.5em;
+    }
+  
+    .countdown p {
+      font-size: 1em;
+    }
+  
+    .countdown-unit {
+      font-size: 1em; /* Adjust the font size for smaller screens */
+    }
+  }
+  
